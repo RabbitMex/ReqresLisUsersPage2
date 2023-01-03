@@ -1,7 +1,11 @@
-console.log('Inicio de consulta')
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://reqres.in/api/users?page=2", true);
 xhr.onload = function(){
+    document.getElementById("parrafoTransparente").innerHTML = xhr.responseText
+    const miObjeto = JSON.parse(xhr.responseText)
+    document.getElementById("parrafoObjeto").innerHTML = JSON.stringify(miObjeto, null, 4)
+    console.log(JSON.stringify(miObjeto, null, 4))
+    /* 
     console.log('El tipo de xhr es:', typeof(xhr))
     const textoXhr = xhr.responseText
     console.log('el tipo de textoXhr es:', typeof(textoXhr))
@@ -14,8 +18,6 @@ xhr.onload = function(){
     const miObjeto = JSON.parse(textoXhr)
     console.log('typeof miObjeto:', typeof(miObjeto))
     console.log(miObjeto)
-    console.log('Imprimir con indentado')
-    console.log(JSON.stringify(miObjeto, null, 4))
     console.log('-------------------------------------------------')
     console.log('Desplegar el primer usuario data[0]')
     console.log('id:', miObjeto.data[0].id)
@@ -31,6 +33,6 @@ xhr.onload = function(){
         Apellido: ${miObjeto.data[1].last_name}
         email: ${miObjeto.data[1].email}
         avatar:${miObjeto.data[1].avatar}
-        `)
+        `) */
 };
 xhr.send();
