@@ -97,7 +97,7 @@ const desplegarUsuario = (usuario)=>{
  */
 
     let columna = document.createElement('div')
-    columna.className = 'col'
+    columna.className = 'col col-8 col-sm-6 mb-3 mb-sm-0' 
     let tarjeta = document.createElement('div')
     tarjeta.className = 'card h-100'
     let imagen = document.createElement('img')
