@@ -1,0 +1,67 @@
+.miCard{
+    flex: 0 0 auto;
+    width: 45%;
+}
+
+@media (max-width:1850px){
+    .miCard{
+        flex: 0 0 auto;
+        width:46%;
+    }
+}
+
+@media (max-width:1800px){
+    .miCard{
+        flex: 0 0 auto;
+        width:48%;
+    }
+}
+
+@media (max-width:1750px){
+    .miCard{
+        flex: 0 0 auto;
+        width:51%;
+    }
+}
+
+@media (max-width:1700px){
+    .miCard{
+        flex: 0 0 auto;
+        width:54%;
+    }
+}
+
+@media (max-width:1600px){
+    .miCard{
+        flex: 0 0 auto;
+        width:58%;
+    }
+}
+
+@media (max-width:1500px){
+    .miCard{
+        flex: 0 0 auto;
+        width:60%;
+    }
+}
+
+@media (max-width:1400px){
+    .miCard{
+        flex: 0 0 auto;
+        width:65%;
+    }
+}
+
+@media (max-width:1200px){
+    .miCard{
+        flex: 0 0 auto;
+        width:70%;
+    }
+}
+
+@media (max-width:1000px){
+    .miCard{
+        flex: 0 0 auto;
+        width:90%;
+    }
+}
