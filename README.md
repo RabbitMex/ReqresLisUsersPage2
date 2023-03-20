@@ -18,6 +18,9 @@ mas agradable y visual.
 
 REST-API: lleva a la pagina https://reqres.in/, donde puedes ver mas consultas
 
+Para visitar la pagina:
+https://rabbitmex.github.io/ReqresLisUsersPage2/
+
 -------------------------------------------------------------------------------
 la consulta tiene el siguiente aspecto:
 
